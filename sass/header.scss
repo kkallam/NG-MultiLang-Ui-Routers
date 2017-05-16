@@ -1,0 +1,62 @@
+
+
+// header{
+// 	background: #1e5799; /* Old browsers */
+// 	background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 57%, #7db9e8 100%); /* FF3.6-15 */
+// 	background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 57%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+// 	background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 57%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+// 	padding: 10px;
+// }
+
+
+// header{
+// 	background: rgb(0,183,234); /* Old browsers */
+// 	background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,183,234,1) 48%, rgba(0,183,234,1) 57%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+// 	background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,183,234,1) 48%,rgba(0,183,234,1) 57%,rgba(0,158,195,1) 100%); Chrome10-25,Safari5.1-6
+// 	background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,183,234,1) 48%,rgba(0,183,234,1) 57%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+// 	padding: 10px;
+// }
+
+
+
+header{
+	// background: #34495e;
+	//background: #037e8c;
+	padding: 10px;
+}
+ul li a{
+	cursor: pointer;
+	color: #fff;
+	font-size: 16px;
+}
+.nav-pills{
+	background: #037e8c;
+	padding: 5px 0;
+}
+.nav-pills>li>a:focus, .nav>li>a:hover{
+	//background-color: #337ab7;
+	//background-color:#F24C27;
+	background-color:#024959;
+	color: #fff;
+}
+
+.nav-pills>li>a:active{
+	background-color: #337ab7;
+}
+
+.nav-pills>li>a{
+	color: rgba(255,255,255,1);
+}
+
+div.title{
+	font-size:32px;
+	color: #fff;
+	//background-color:#024959;
+	background-color: #fff;
+	padding:15px 0;
+}
+.noPadding{
+	padding: 0;
+}

@@ -1,17 +1,17 @@
 @import 'reset';
+@import 'header';
+@import 'footer';
 
 
-$font: Helvetica, sans-serif;
-$primary-color: #123987;
-
+$font: "minion-pro", Georgia, serif, Helvetica, sans-serif;
+$primary-color: #333;
 
 
 body{
 	font: 100% $font;
 	color: $primary-color;
-	
+	font-size: 16px;
 }
-
 
 @mixin border-radius($radius){
 	-webkit-border-radius: $radius;
@@ -21,19 +21,10 @@ body{
 	background-color: #927023;
 }
 
-
 .box{
 	@include border-radius(5px);
 	padding: 10px;
 }
-
-h1{
-	color: #67ab43;
-}
-h2{
-	color: #e9d8c7;
-}
-
 .message{
 	@include border-radius(5px);
 	border:1px solid #ccc;
@@ -44,13 +35,102 @@ h2{
 	@extend .message;
 	border: 2px solid green;
 }
-
+h2{
+	// color: #666;
+	padding: 10px 0;
+}
 .error{
 	@extend .message;
 	border-color: red;
 }
-
 .warning {
   @extend .message;
   border-color: yellow;
 }
+.center{
+	text-align: center;
+}
+.container1{
+	background-color: rgba(2,73,89,0);
+	height:200px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+// home.html template
+.moreInfo{
+	margin-top:30px;
+}
+.nav-tabs{
+	background-color: rgba(2,73,89,0.5);
+	color:#111;
+	border: 1px solid rgba(2,73,89,0.8);
+}
+.nav-tabs>ul>li>a{
+	color: #111 !important;
+	text-decoration: underline;
+}
+
+
+
+// contact.html Template
+.ceoDiv img{
+	display: block;
+	margin: 0 auto;
+}
+.marginTop20{
+	margin-top:20px;
+}
+.logo-big-div{
+	margin-top:30px;
+}
+
+
+
+
+//UK.html template
+.leftPanel{
+	background-color: #eee;
+	padding: 10px;
+}
+
+.leftPanel a{
+	margin: 10px 0;
+	display: block;
+	cursor: pointer;
+}
+.rightPanel{
+	min-height: 400px;
+    background-color: #d0d0d0;
+}
+
+
+//India.html
+
+.employees>div>ul>li{
+	padding: 5px 0;
+}
+.employees>div>ul>li>a{
+	padding: 5px;
+	//border-bottom: 1px solid #eee;
+	color: #337ab7 !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

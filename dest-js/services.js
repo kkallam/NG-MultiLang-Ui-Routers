@@ -1,0 +1,1 @@
+myApp.factory("empInfoService",function(e){return e.get("js/employees.json").success(function(e){$scope.employeesCtrlData=e.employees,console.log($scope.employeesCtrlData)})});

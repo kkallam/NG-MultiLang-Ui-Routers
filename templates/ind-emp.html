@@ -1,0 +1,20 @@
+
+<div class="col-sm-12">
+	
+	<h3>This is Employees Details Section</h3>
+
+	<div class="employees" ng-repeat="em in employeesCtrlData.employees">
+		<div class="col-sm-12">
+			<ul >
+				<li>
+					<a ui-sref="india.employees.id({empId:em.id})" >{{em.name}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="col-sm-12" ui-view>
+	
+</div>
